@@ -1,0 +1,40 @@
+body {
+  background-image: url("images/gameplay.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.diff {
+    text-align: center;
+  }
+  
+  .diff button {
+    /*para sa display */
+    display: inline-block; 
+    margin: 10px 5px; 
+    padding: 10px 10px;
+    background-color: burlywood;
+    color: white;
+    cursor: pointer;
+
+    /*para sa border*/
+    border: solid;
+    border-radius: 40px;
+
+    /*para sa font*/
+    font-size: 20px;
+  }
+
+.diff :hover{
+    animation: colorChange 1s infinite;
+}
+
+@keyframes colorChange {
+  0% {background-color: violet;}
+  25% {background-color: blue;}
+  50% {background-color: red;}
+  75% {background-color: green;}
+  100% {background-color: yellow;}
+}
