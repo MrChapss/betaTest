@@ -26,8 +26,6 @@ body {
   margin: 233px 50px 0 295px;
   padding: 0;
   cursor: pointer;
-  height: 100vh;
-  overflow-y: auto;
 }
 
 
@@ -35,8 +33,6 @@ body {
   margin: 72px 50px 0 295px;
   padding: 0;
   cursor: pointer;
-  height: 100vh;
-  overflow-y: auto;
 }
 
 
