@@ -1,0 +1,55 @@
+body {
+    background-image: url("images/mainterface.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#startBtn {
+    font-family: 'Anton', sans-serif;
+    font-size: 42px;
+    color: #FCC979;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#creditsBtn {
+    font-family: 'Anton', sans-serif;
+    font-size: 42px;
+    color: #FCC979;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+#mainBtns {
+    padding: 0;
+    position: fixed; 
+    top: 65%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#startBtn:hover {
+    color: #382318;
+    transition-duration: 0.5s;
+    font-size: 48px;
+}
+
+#startBtn:not(:hover) {
+    transition: color 1.5s, font-size 1.5s ease;
+}
+
+#creditsBtn:hover {
+    color: #382318;
+    transition-duration: 0.5s;
+    font-size: 48px;
+}
+
+#creditsBtn:not(:hover) {
+    transition: color 1.5s, font-size 1.5s ease;
+}
